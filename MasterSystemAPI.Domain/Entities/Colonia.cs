@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MasterSystemAPI.Domain.Entities;
 
-public partial class Colonium
+public partial class Colonia
 {
     public int Idcolonia { get; set; }
 

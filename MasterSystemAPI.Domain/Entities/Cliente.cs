@@ -35,7 +35,7 @@ public partial class Cliente
 
     public virtual ICollection<AtencionCliente> AtencionClientes { get; } = new List<AtencionCliente>();
 
-    public virtual Colonium? ColoniaNavigation { get; set; }
+    public virtual Colonia? ColoniaNavigation { get; set; }
 
     public virtual ICollection<Factura> Facturas { get; } = new List<Factura>();
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MasterSystemAPI.Domain.Entities;
 
-public partial class Materiale
+public partial class Materiales
 {
     public int Id { get; set; }
 

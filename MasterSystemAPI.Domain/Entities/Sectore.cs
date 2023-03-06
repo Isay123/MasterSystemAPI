@@ -31,7 +31,7 @@ public partial class Sectore
 
     public int? Municipio { get; set; }
 
-    public virtual Colonium? ColoniaNavigation { get; set; }
+    public virtual Colonia? ColoniaNavigation { get; set; }
 
     public virtual Municipio? MunicipioNavigation { get; set; }
 

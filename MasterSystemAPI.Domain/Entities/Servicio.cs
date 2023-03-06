@@ -53,13 +53,13 @@ public partial class Servicio
 
     public virtual Evidencia? IdevidenciasNavigation { get; set; }
 
-    public virtual Materiale? IdmaterialesNavigation { get; set; }
+    public virtual Materiales? IdmaterialesNavigation { get; set; }
 
     public virtual Instalacione? InstalacionNavigation { get; set; }
 
     public virtual ICollection<Ip> Ips { get; } = new List<Ip>();
 
-    public virtual ICollection<Materiale> Materiales { get; } = new List<Materiale>();
+    public virtual ICollection<Materiales> Materiales { get; } = new List<Materiales>();
 
     public virtual ICollection<Pago> Pagos { get; } = new List<Pago>();
 

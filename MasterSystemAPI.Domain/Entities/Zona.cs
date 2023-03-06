@@ -9,7 +9,7 @@ public partial class Zona
 
     public int? Idmunicipio { get; set; }
 
-    public virtual Colonium? IdcoloniaNavigation { get; set; }
+    public virtual Colonia? IdcoloniaNavigation { get; set; }
 
     public virtual Municipio? IdmunicipioNavigation { get; set; }
 }

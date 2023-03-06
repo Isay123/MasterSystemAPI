@@ -19,7 +19,7 @@ public partial class Sucursal
 
     public int? Telefono { get; set; }
 
-    public virtual Colonium? ColoniaNavigation { get; set; }
+    public virtual Colonia? ColoniaNavigation { get; set; }
 
     public virtual ICollection<Factura> Facturas { get; } = new List<Factura>();
 
